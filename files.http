@@ -1,0 +1,18 @@
+POST https://dynalist.io/api/v1/file/list
+Content-Type: application/json
+
+{
+  "token": ""
+}
+
+###
+
+POST https://dynalist.io/api/v1/doc/read
+Content-Type: application/json
+
+{
+  "token": "",
+  "file_id": ""
+}
+
+###
